@@ -47,7 +47,7 @@ const updateTask =asyncWrapper( async (req, res,next) => {
     }
     res.status(200).json({update_one}) 
 })
-//thia allows us to delete a task
+//this allows us to delete a task
 const deleteTask =asyncWrapper( async  (req, res,next) => {
  
     const { id: taskid } = req.params
